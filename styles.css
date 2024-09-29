@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 100px; /* Adjust logo size as needed */
+    margin-right: 20px;
+}
+
+.title-section {
+    margin-bottom: 20px;
+}
+
+.features {
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: space-around; /* Space out the columns evenly */
+    margin-top: 20px; /* Space above the feature boxes */
+}
+
+.feature-box {
+    flex: 1; /* Allow each box to take equal space */
+    margin: 10px; /* Space between boxes */
+    padding: 20px; /* Padding inside boxes */
+    text-align: center; /* Center the text */
+    color: white; /* Text color for better visibility */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer for interactivity */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.green {
+    background-color: #4CAF50; /* Green */
+}
+
+.light-green {
+    background-color: #81C784; /* Light Green */
+}
+
+.blue {
+    background-color: #2196F3; /* Blue */
+}
+
+.feature-link {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold text */
+}
+
+.feature-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
